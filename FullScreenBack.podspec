@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.name         = "FullScreenBack"
   s.version      = "1.0.1"
   s.summary      = "全屏左滑返回"
-  s.description  = "左滑返回"
+  s.description  = "左滑返回,you would like that way"
 
   s.homepage     = "https://github.com/Coderplayer/FullScreenBack"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
