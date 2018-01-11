@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "FullScreenBack"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "全屏左滑返回"
   s.description  = "左滑返回,you would like that way"
 
@@ -19,9 +19,9 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
-  s.source       = { :git => "https://github.com/Coderplayer/FullScreenBack.git", :tag => v#{s.version}}
+s.source       = { :git => "https://github.com/Coderplayer/FullScreenBack.git",:tag => s.version}
 
-  s.source_files  = "FullScreenBack/FullScreenBack.{h,m}"
+  s.source_files  = "FullScreenBack/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
