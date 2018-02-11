@@ -53,6 +53,7 @@ static NSString *kLGYPanGestureKey = @"LGYPanGestureKey";
     }
     //    NSLog(@"nav pan");
     AppDelegate *appdelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+//    appdelegate.screenshotView = [[UIView alloc] init];// 只读属性
     UIViewController *rootVC = appdelegate.window.rootViewController;
     UIViewController *presentedVC = rootVC.presentedViewController;
     

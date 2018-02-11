@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
-s.source       = { :git => "https://github.com/Coderplayer/FullScreenBack.git",:tag => s.version}
+  s.source       = { :git => "https://github.com/Coderplayer/FullScreenBack.git", :tag => "1.0.2"}
 
   s.source_files  = "FullScreenBack/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
